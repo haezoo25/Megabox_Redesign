@@ -138,7 +138,7 @@ nav ul li a {
     font-size: 3rem;
     color: #fff;
     opacity: 0.75;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease-in-out;
 }
 
 nav ul li a:hover {
@@ -266,11 +266,13 @@ html {
 /* ---------------------------------------------------------------- */
 
 /* 섹션0 */
-
+#main {
+    width: 100%;
+    height: 100vh;
+}
 .s0 body{
     padding: 0px; margin: 0px;
 }
-
 .s0 .bg-video{
     width: 100%;
     height: 100%;
@@ -296,6 +298,11 @@ html {
     left: 130px;
     top: 47%;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.s0 button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #8b8b8b;
 }
 
 .s0 h3 {
@@ -384,8 +391,12 @@ html {
 }
 
 /* ---------------------------------------------------------------- */
-/* 섹션1 */
 
+/* 섹션1 */
+#movie {
+    width: 100%;
+    height: 100vh;
+}
 .s1 .inner {
     width:100%;
     text-align:center;
@@ -419,7 +430,11 @@ html {
     position: relative;
     z-index: 15;
     cursor: pointer;
-    /*폰트 적용 해주세요*/
+    transition: all 0.3s ease-in-out;
+}
+.s1 button:hover {
+    background-color: #5F00C6;
+    box-shadow: 0px 4px 5px rgb(97 60 255);
 }
 
 /* 섹션1 슬라이드 */
@@ -445,6 +460,10 @@ html {
 /* ---------------------------------------------------------------- */
 
 /* 섹션2 */
+#curation {
+    width: 100%;
+    height: 100vh;
+}
 .s2 h4 {
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -541,8 +560,12 @@ html {
     top: 43%;
     cursor: pointer;
     z-index: 100;
+    transition: all 0.3s ease-in-out;
 }
-
+.s2 button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #5f5f5f;
+}
 .s2 h6{
     position: absolute;
     left: 250px;
@@ -569,7 +592,6 @@ html {
     bottom: 0;
     left: 0;
     background: linear-gradient(to bottom, transparent, rgba(16, 16, 17, 0.2) 10%, rgba(16, 16, 17, 1) 100%);
-
 }
 
 .s2 .step1{
@@ -606,6 +628,10 @@ html {
 
 /* ---------------------------------------------------------------- */
 /* 섹션3 */
+#benefit {
+    width: 100%;
+    height: 100vh;
+}
 
 .fp-table.s3 {
     justify-content: flex-start;
@@ -751,20 +777,21 @@ html {
 }
 
 .s3 .benefit-category.on{
-    height:795px;
+    height: 50%;
 }
 .s3 .membership{
-    /* position: absolute; */
     width: 900px;
     height: auto;
-    /* left: 25%;
-    top: 25%; */
     cursor: pointer;
 }
 
 
 /* ---------------------------------------------------------------- */
 /* 섹션4 */
+#event {
+    width: 100%;
+    height: 100vh;
+}
 .s4 h3 {
     position: absolute;
     left: 170px;
@@ -784,17 +811,22 @@ html {
 
 .s4 button {
     width: 150px;
-    height: 30px;
+    height: 35px;
     color: white;
     font-weight: 300;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.05);
-    border: 0.5px solid #FFFFFF;
+    border: 1px solid #585858;
     backdrop-filter: blur(3px);
     position: absolute;
     left: 170px;
     top: 39%;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.s4 button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
 }
 
 .s4 .bg-image1{
@@ -888,6 +920,10 @@ html {
 
 /* ---------------------------------------------------------------- */
 /* 섹션5 */
+#brand_video {
+    width: 100%;
+    height: 100vh;
+}
 .s5 h3 {
     position: absolute;
     left: 50%;
@@ -917,13 +953,15 @@ html {
     z-index: 5;
     cursor: pointer;
 }
-
+.brand_wrap {
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 /* 동영상 */
 .brand-video{
-   position: absolute;
-    left: 50%;
-    top: 45%;
-    margin-left: -500px;
+ 
 }
 .brand-video video{
     width: 500px;
@@ -931,9 +969,7 @@ html {
     border-radius: 20px;
 }
 .brand-card{
-    position: absolute;
-    left: 53%;
-    top: 34%;
+
 }
 .brand-card img{
     width: 450px;

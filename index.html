@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>메가박스</title>
+    <title>메가박스 리디자인</title>
 
     <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -25,8 +25,11 @@
 <!-- ---------------------------------------------------------------- -->
 
 <body>
+
+<!-- 효과 -->
 <div class="cursor"></div>
 <div class="noise"></div>
+
 <header id="header">
     <div class="logo">
         <img class="main-logo" src="img/mainlogo.png" alt="">
@@ -49,7 +52,6 @@
                         <div class="menu_name">Movie</div>
                     </a>
                 </li>
-
                 <li>
                     <a href="#">
                         <div>
@@ -59,7 +61,6 @@
                         <div class="menu_name">Reservation</div>
                     </a>
                 </li>
-
                 <li>
                     <a href="#">
                         <div>
@@ -69,7 +70,6 @@
                         <div class="menu_name">Event</div>
                     </a>
                 </li>
-
                 <li>
                     <a href="#">
                         <div>
@@ -79,22 +79,21 @@
                         <div class="menu_name">Store</div>
                     </a>
                 </li>
-
-
             </ul>
         </nav>
     </div>
 </header>
 
 <!-- 풀페이지 시작 -->
-
 <div id="full-page">
 
-
+<!-- section s1 start -->
+<section id="main">
     <div class="section s0">
-
         <div class="bg-video">
-            <video src="media/mainvideo.mp4" muted autoplay loop></video>
+            <video autoplay muted loop>
+                <source src="media/mainvideo.mp4" type="video/mp4">
+            </video>
         </div>
 
         <h3>MEET PLAY SHARE, MEGABOX</h3>
@@ -121,9 +120,12 @@
                 MEGABOX
             </div>
         </div>
+    </div>
+</section><!--section s0 End-->
 
-    </div><!--s0 Emd-->
 
+<!-- section s1 start -->
+<section id="movie">
     <div class="section s1">
         <div class="inner">
             <h1>박스오피스</h1>
@@ -142,8 +144,12 @@
             </div>
         </div>
 
-    </div><!--s1 Emd-->
+    </div>
+</section><!--section s1 End-->
 
+
+<!-- section s2 start -->
+<section id="curation">
     <div class="section s2">
         <h4 class="on">01</h4>
         <h5>02</h5>
@@ -172,9 +178,12 @@
         <div class="step1 step on"><img src="img/society1.png" alt="1"></div>
         <div class="step2 step"><img src="img/society2.png" alt="2"></div>
 
+    </div>
+</section><!-- section s2 End-->
 
-    </div><!--s2 Emd-->
 
+<!-- section s3 start -->
+<section id="benefit">
     <div class="section s3">
         <div class="test2">
             <h2>혜택</h2>
@@ -203,7 +212,6 @@
                 <div><img class="Benefit-image5" src="img/benefit9.png" alt=""></div>
             </div>
         </div>
-        <!-- 버튼 누르면 나오는 창 (주석 처리된 부분) -->
 
         <div class="benefit-category">
             <h4>MEGABOX MEMBERSHIP</h4>
@@ -211,8 +219,12 @@
             <img class="membership" src="img/membership.png" alt="">
         </div>
 
-    </div><!--s3 Emd-->
+    </div>
+</section><!--section s3 End-->
 
+
+<!-- section s4 start -->
+<section id="event">
     <div class="section s4">
         <h3>이벤트</h3>
         <p>메가박스에서는 메가Pick, 영화, 극장, 제휴/할인 등<br>
@@ -256,17 +268,23 @@
         </div>
 
         <button>더 많은 상품 보러가기</button>
-    </div><!--s4 Emd-->
+    </div>
+</section><!--section s4 End-->
 
+
+<!-- section s5 start -->
+<section id="brand_video">
     <div class="section s5">
         <h3>Brand video</h3>
         <p>메가박스에서 사랑받은 제품과 브랜드를 <br> 매일 새로운 영상으로
             소식을 받아보며 편리하게 볼 수 있습니다.</p>
 
-        <!-- 영상, 카드뉴스 -->
+    <div class="brand_wrap">
+        <!-- 브랜드 영상 -->
         <div class="brand-video">
             <video controls src="media/brandvideo.mp4" type="video/mp4" width="500px"></video>
         </div>
+        <!-- 카드뉴스 -->
         <div class="brand-card">
             <div class="card1">
                 <img src="img/brandcard1.jpg" alt="">
@@ -277,16 +295,18 @@
             </div>
             <button>자세히 보러가기</button>
         </div>
+    </div>
 
         <!-- 푸터 -->
         <footer id="footer" class="intro ">
             <h1>회사소개 | 인재채용 | 사회공헌 | 개인정보처리방침 | 윤리경영 | 경영정보 | 사이트맵</h1>
             <h2>서울특별시 마포구 월드컵로 240, 지상2층(성산동, 월드컵주경기장) ARS 1544-0070<br>
-                디자인 박해주 &middot; 웹퍼블리싱 박해주 &middot; 제작자이메일 kuchya25@gmail.com &middot; 통신판매업신고번호 제 2020-서울마포-4545 호<br>
+                디자인 박해주 &middot; 웹퍼블리싱 박해주 &middot; 제작자이메일 haezoo25@gmail.com &middot; 통신판매업신고번호 제 2020-서울마포-4545 호<br>
                 COPYRIGHT © MegaboxRedesign, Inc. All rights reserved
             </h2>
         </footer>
-    </div><!--s5 Emd-->
+    </div>
+</section><!--section s5 start End-->
 
 
 </div><!--full-page End-->
