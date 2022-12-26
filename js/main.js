@@ -94,7 +94,7 @@ $(document).ready(function(){
 
     });
 
-// s3 혜택
+    // s3 혜택
     $(".s3 .arrow").on("click", function (){
         if( $(this).hasClass("on")){
             $(this).removeClass("on");

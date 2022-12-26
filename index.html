@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-2.2.4.js"
@@ -32,7 +33,7 @@
 
 <header id="header">
     <div class="logo">
-        <img class="main-logo" src="img/mainlogo.png" alt="">
+        <a href="./index.html"><img class="main-logo" src="img/mainlogo.png" alt=""></a>
     </div>
     <a href="#" class="hamburger-button">
         <span></span>
@@ -44,7 +45,7 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="#movie">
                         <div>
                             <p class="number">01</p>
                             <p class="category">영화</p>
@@ -53,16 +54,16 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#curation">
                         <div>
                             <p class="number">02</p>
-                            <p class="category">예매</p>
+                            <p class="category">큐레이션</p>
                         </div>
-                        <div class="menu_name">Reservation</div>
+                        <div class="menu_name">Curation</div>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#event">
                         <div>
                             <p class="number">03</p>
                             <p class="category">이벤트</p>
@@ -71,12 +72,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#brand_video">
                         <div>
                             <p class="number">04</p>
-                            <p class="category">스토어</p>
+                            <p class="category">브랜드</p>
                         </div>
-                        <div class="menu_name">Store</div>
+                        <div class="menu_name">brand video</div>
                     </a>
                 </li>
             </ul>
@@ -91,15 +92,19 @@
 <section id="main">
     <div class="section s0">
         <div class="bg-video">
-            <video autoplay muted loop>
+            <video data-autoplay muted loop>
                 <source src="media/mainvideo.mp4" type="video/mp4">
             </video>
         </div>
 
+        <div class="main_info">
         <h3>MEET PLAY SHARE, MEGABOX</h3>
         <h1><span>사람들과 공유할 수 있는,</span><br> 공간경험을 만듭니다.</h1>
         <button>VIEW MORE</button>
+        </div>
+
         <!-- 아이콘 -->
+        <div class="main_icon">
         <div style="font-size: 25px; color:white; ">
             <i class="fa-brands fa-instagram"></i>
         </div>
@@ -108,6 +113,7 @@
         </div>
         <div style="font-size: 25px; color:white; ">
             <i class="fa-brands fa-youtube"></i>
+        </div>
         </div>
 
         <!-- 텍스트 애니메이션 -->
@@ -265,6 +271,17 @@
                     </div>
                 </div>
             </div>
+
+            <div class="wrapper">
+                <div class="card">
+                    <img src="img/event3.png" alt="">
+                    <div class="info">
+                        <h1>&lt;탑건 : 매버릭&gt;</h1>
+                        <p>DOLBY 오리지널 포스터 증정 이벤트</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <button>더 많은 상품 보러가기</button>
@@ -293,15 +310,14 @@
             <div class="card2">
                 <img src="img/brandcard2.jpg" alt="">
             </div>
-            <button>자세히 보러가기</button>
         </div>
     </div>
 
         <!-- 푸터 -->
-        <footer id="footer" class="intro ">
+        <footer id="footer" class="intro">
             <h1>회사소개 | 인재채용 | 사회공헌 | 개인정보처리방침 | 윤리경영 | 경영정보 | 사이트맵</h1>
             <h2>서울특별시 마포구 월드컵로 240, 지상2층(성산동, 월드컵주경기장) ARS 1544-0070<br>
-                디자인 박해주 &middot; 웹퍼블리싱 박해주 &middot; 제작자이메일 haezoo25@gmail.com &middot; 통신판매업신고번호 제 2020-서울마포-4545 호<br>
+                디자인 박해주 &middot; 웹퍼블리싱 박해주 &middot; 제작자이메일 haezoo25@gmail.com &middot; GITHUB_ <a href="https://github.com/haezoo25" class="footer_link">https://github.com/haezoo25</a><br>
                 COPYRIGHT © MegaboxRedesign, Inc. All rights reserved
             </h2>
         </footer>

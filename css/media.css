@@ -1,0 +1,46 @@
+/* 데스크탑 */
+@media all and (max-width:1440px) {
+    /* 섹션 0 */
+    .s0 h3 {
+        font-size: 1.6rem;
+    }
+    .s0 h1 {
+        font-size: 1.7rem;
+    }
+    .s0 button {
+        top: 43%;
+    }
+    .scrolling {
+        margin-top: 680px;
+    }
+}
+
+/* 노트북 */
+@media all and (max-width:1024px) {
+    
+}
+
+/* 아이패드 */
+@media all and (max-width:991px) {
+   
+}
+
+/* 모바일 */
+@media screen and (max-width:767px) {
+
+}
+
+/*모바일2*/
+@media screen and (max-width:576px) {
+
+}
+
+/*모바일3 갤럭시*/
+@media screen and (max-width:425px) {
+   
+}
+
+/*모바일4 아이폰*/
+@media screen and (max-width:375px) {
+    
+}
