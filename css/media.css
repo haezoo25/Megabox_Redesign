@@ -13,16 +13,156 @@
     .scrolling {
         margin-top: 680px;
     }
+    /* 섹션2 */
+    .s2 .step1 img, .s2 .step2 img {
+        max-width: 80%;
+    }
+    
+    /* 섹션3 */
+    .s3 h4 {
+        padding: 48px 0 15px;
+    }
+    .s3 .membership {
+        width: 700px;
+    }
+    /* 섹션4 */
+    .s4 h3 {top: 22%;}
+    .s4 p {top: 29%;}
+    .s4 button {top: 40%;}
+    .s4 .event_card {
+        width: 80%;
+        top: 35%;
+    }
+    .s4 .card {
+        width: 250px;
+        height: 250px;
+        left: 150px;
+        top: 50%;
+    }
+    /* 섹션5 */
+    .brand-card img {
+        width: 350px;
+        height: auto;
+    }
 }
 
 /* 노트북 */
 @media all and (max-width:1024px) {
-    
+    /* 섹션0 */
+    .s0 h3 {
+        font-size: 1.5rem;
+        width: 385px;
+        top: 31%;
+    }
+    .s0 h1 {
+        font-size: 1.6rem;
+        top: 37%;
+    }
+    .s0 h1 span {
+        font-size: 1.7rem;
+    }
+    .s0 button {
+        top: 47%;
+    }
+    .scrolling div {
+        font-size: 1.1em;
+        font-weight: 300;
+    }
+    /* 섹션2 */
+    .s2 h4 {left: 5%;}
+    .s2 h5 {left: 5%;}
+    .s2 h3 {left: 160px;}
+    .s2 h1 {left: 155px;}
+    .s2 h2 {left: 155px;}
+    .s2 button {
+        padding: 0.8% 1.8%;
+        width: auto;
+        height: auto;
+        left: 155px;
+    }
+    .s2 h6 {left: 155px;}
+    .s2 p {left: 155px;}
+    .s2 .step1 {
+        left: 40%;
+        transform: translate(50px, -200px);
+    }
+    .s2 .step2 {
+        left: auto;
+        top: 35%;
+        transform: translate(300px, -200px);
+    }
+    /* 섹션3 */
+    .background-logo {
+        left: auto;
+        top: 20%;
+    }
+    .text {left: 15%;}
+    .s3 .benefit-img {left: 22%;}
+    /* 섹션 4 */
+    .s4 h3 {left: 110px;}
+    .s4 p {left: 110px;}
+    .s4 button {left: 110px;}
+    .s4 .event_card {width: 90%;}
+    .s4 .card {
+        width: 210px;
+        height: 210px;
+        left: 0;
+    }
+    .card .info h1 {
+        font-size: 0.9rem;
+    }
+    /* 섹션 5 */
+    .brand_wrap {
+        padding: 0 10%;
+    }
+    .brand-card img {
+        width: 300px;
+    }
 }
 
-/* 아이패드 */
-@media all and (max-width:991px) {
-   
+@media all and (max-width:850px) {
+    /* 섹션 2 */
+    .s2 .step1 img {
+        max-width: 100%;
+    }
+    .s2 .step2 img {
+        max-width: 80%;
+    }
+    .s2 .step2 {
+        transform: translate(150px, -150px);
+    }
+    .s2 h4 {left: 7%; top: 60%;}
+    .s2 h5 {left: 7%; top: 69%;}
+    .s2 h3 {left: 8%;}
+    .s2 h1 {left: 7%;}
+    .s2 h2 {left: 7%;}
+    .s2 button {left: 7%;}
+    .s2 h6 {left: 7%; top: 49%;}
+    .s2 p {left: 7%; top: 53%;}
+    .s2 .step1 {transform: translate(20px, -200px);}
+    /* 섹션 3 */
+    .s3 h2 {top: 22%;}
+    .s3 p {top: 28%;}
+    .s3 h4 {padding: 44px 0 15px;}
+    .text {left: 12%;}
+    .s3 .membership {width: 620px;}
+    /* 섹션 4 */
+    .s4 .event_card {
+        width: 85%;
+    }
+    .s4 .card {
+        width: 160px;
+        height: 160px;
+        left: 30px;
+        top: 100%;
+    }
+    .s4 p {
+        font-size: 0.9rem;
+    }
+    /* 섹션 5 */
+    .s5 p {
+        font-weight: 200;
+    }
 }
 
 /* 모바일 */

@@ -576,17 +576,9 @@ html {
     line-height: 185%;
     font-weight: 200;
     z-index: 100;
-}
-
-/* 글에 색상효과 */
-.s2 .text-box::before {
-    content: "";
-    width: 450px;
-    height: 50px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(to bottom, transparent, rgba(16, 16, 17, 0.2) 10%, rgba(16, 16, 17, 1) 100%);
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .s2 .step1{
@@ -817,6 +809,7 @@ html {
     left: 170px;
     top: 38%;
     cursor: pointer;
+    z-index: 10;
     transition: all 0.3s ease-in-out;
 }
 .s4 button:hover {
